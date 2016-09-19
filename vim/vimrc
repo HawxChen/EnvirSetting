@@ -1,9 +1,8 @@
-"set nocp incsearch
 set incsearch
 set hlsearch
 set nocompatible
 set shiftwidth=4
-set softtabstop=4
+"set softtabstop=4
 set expandtab
 set cinwords=if,else,while,do,for,switch,case
 set formatoptions=tcqr
@@ -21,10 +20,11 @@ set noeb vb t_vb=
 syn on
 set cindent
 colorscheme torte
+autocmd Filetype make setlocal noexpandtab
+autocmd Filetype Make setlocal noexpandtab
 
 
 au BufNewFile,BufRead *.\(vim\)\@! inoremap " ""<esc>:let leavechar='"'<cr>i
 au BufNewFile,BufRead *.\(txt\)\@! inoremap ' ''<esc>:let leavechar="'"<cr>i
 imap <m-l> <esc>:exec "normal f" . leavechar<cr>a
 imap <d-l> <esc>:exec "normal f" . leavechar<cr>
-       
