@@ -1719,3 +1719,5 @@ zeitgeist-datahub
 zenity
 zenity-common
 zlib1g:amd64
+manpages-posix-dev
+manpages-posix
