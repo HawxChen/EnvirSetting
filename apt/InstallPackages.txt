@@ -1721,3 +1721,4 @@ zenity-common
 zlib1g:amd64
 manpages-posix-dev
 manpages-posix
+cgdb
