@@ -1,3 +1,4 @@
+apt-get update
 while read p; do
   apt-get install -y $p 
 done <InstallPackages.txt
