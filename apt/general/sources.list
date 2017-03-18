@@ -1,0 +1,15 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 8.5.0 _Jessie_ - Official amd64 NETINST Binary-1 20160604-15:31]/ jessie main
+
+#deb cdrom:[Debian GNU/Linux 8.5.0 _Jessie_ - Official amd64 NETINST Binary-1 20160604-15:31]/ jessie main
+
+deb http://debian.csail.mit.edu/debian/ jessie main non-free contrib
+deb-src http://debian.csail.mit.edu/debian/ jessie main
+
+deb http://security.debian.org/ jessie/updates main non-free contrib
+deb-src http://security.debian.org/ jessie/updates main
+
+# jessie-updates, previously known as 'volatile'
+deb http://debian.csail.mit.edu/debian/ jessie-updates main non-free contrib
+deb-src http://debian.csail.mit.edu/debian/ jessie-updates main
