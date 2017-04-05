@@ -16,18 +16,3 @@
 #
 
 # A Spark Worker will be started on each of the machines listed below.
-worker01
-worker02
-worker03
-worker04
-worker05
-worker06
-worker07
-worker08
-worker09
-worker10
-worker11
-worker12
-worker13
-worker14
-worker15
