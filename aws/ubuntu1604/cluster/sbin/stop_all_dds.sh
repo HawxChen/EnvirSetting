@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -o xtarce
 eval `ssh-agent`
 ssh-add DISTRIUBTE_COPUTING.pem
 ./master_disable.sh
