@@ -82,6 +82,12 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias grep='grep --color'
+alias gp='grep --color'
+export LDFLAGS="-L/usr/local/opt/icu4c/lib"
+export CPPFLAGS="-I/usr/local/opt/icu4c/include"
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
