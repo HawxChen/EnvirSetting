@@ -1,0 +1,27 @@
+if &compatible
+    set nocompatible
+end
+
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
+
+    " Let Vundle manage Vundle
+Plugin 'VundleVim/Vundle.vim'
+
+    " vim-scripts.repo
+
+
+    " github other users repo
+Plugin 'Yggdroot/LeaderF'
+Plugin 'frazrepo/vim-rainbow'
+Plugin 'crusoexia/vim-monokai'
+Plugin 'morhetz/gruvbox'
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
+Plugin 'fatih/vim-go'
+
+    " repos not on github
+
+
+call vundle#end()
+filetype plugin indent on
