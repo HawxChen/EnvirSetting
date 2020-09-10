@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/yingjhengchen/Documents/compete/Algorithm/old/111_Minimum_Depth_of_Binary_Tree'
+let g:netrw_dirhist_1='/Users/yingjhengchen/Documents/fun_progs/Robo/src/twstock'
