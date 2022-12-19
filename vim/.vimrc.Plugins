@@ -6,21 +6,16 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
-    " Let Vundle manage Vundle
+" Let Vundle manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 
-    " vim-scripts.repo
+" vim-scripts.repo
 
 
-    " github other users repo
-Plugin 'Yggdroot/LeaderF'
-Plugin 'frazrepo/vim-rainbow'
+" github other users repo
 Plugin 'crusoexia/vim-monokai'
-Plugin 'morhetz/gruvbox'
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
-Plugin 'fatih/vim-go'
 
-    " repos not on github
+" repos not on github
 
 
 call vundle#end()

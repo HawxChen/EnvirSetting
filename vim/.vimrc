@@ -24,6 +24,7 @@ set noeb vb t_vb=
 syn on
 set cindent
 colorscheme torte
+autocmd BufWritePre * :%s/\s\+$//e
 autocmd Filetype make setlocal noexpandtab
 autocmd Filetype Make setlocal noexpandtab
 
@@ -34,8 +35,8 @@ imap <m-l> <esc>:exec "normal f" . leavechar<cr>a
 imap <d-l> <esc>:exec "normal f" . leavechar<cr>
 " Indent Python in the Google way.
 filetype indent on
-if filereadable(expand("~/.vimrc.Plugins"))
-      source ~/.vimrc.Plugins
+if filereadable(expand("~/.vim/bundle/.vimrc.Plugins"))
+      source ~/.vim/bundle/.vimrc.Plugins
 endif
 
 " Plugin sessions
